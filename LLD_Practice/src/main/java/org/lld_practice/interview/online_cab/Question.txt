@@ -1,0 +1,12 @@
+Design a ride sharing application where drivers can offer 
+rides(origin, destination, no_of_seats), any rider can request ride 
+(origin, destination, no_of_seats) 
+
+The program should take as input 2 or more drivers and set of riders requesting rides. 
+Multiple rides can happen simultaneously 
+
+There is an algorithm to choose to calculate the ride amount charged for a given ride based on distance and no of seats - 
+
+i) When the ride closes show the total amount charged to the rider
+ii) Ride amount if no_of_seats >= 2: no_of_seats * no_of_kms*0.75*Amount_charged_per_KM
+iii) Ride amount if seats =1: No_of_kms*Amount_charged_per_KM
